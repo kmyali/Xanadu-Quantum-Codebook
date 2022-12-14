@@ -10,7 +10,7 @@ expectation value in the same way as we would normally take a *weighted
 average*, i.e.,
 
 $$
-\langle Y \rangle = \frac{1 \cdot (\text{num. 1s}) + (-1) \cdot (\text{num. -1s})}{\text{num_shots}}. \tag{1}
+\langle Y \rangle = \frac{1 \cdot (\text{num. 1s}) + (-1) \cdot (\text{num. -1s})}{\text{num\_shots}}. \tag{1}
 $$
 
 In PennyLane, we can access samples directly by returning `qml.sample`
